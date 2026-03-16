@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DamagedByAI</title>
+    <meta
+      name="description"
+      content="DamagedByAI is a witty, sarcastic editorial home for stories, newsletters, and blogs about AI, ML, Agentic AI, LLMs, GenAI, and the glorious chaos they cause."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="#top" aria-label="DamagedByAI home">
+          <span class="brand-mark">DBA</span>
+          <span class="brand-copy">
+            <strong>DamagedByAI</strong>
+            <small>Humans still reviewing the logs</small>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#coverage">Coverage</a>
+          <a href="#stories">Stories</a>
+          <a href="#newsletter">Newsletter</a>
+        </nav>
+
+        <a class="header-cta" href="#stories">Read the chaos</a>
+      </header>
+
+      <main id="top">
+        <section class="hero">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">AI ate the org chart. We brought snacks.</p>
+            <h1>
+              DamagedByAI turns bleeding-edge AI into sharp, funny reading for
+              people who still enjoy context.
+            </h1>
+            <p class="hero-text">
+              Stories, newsletters, and blog posts about LLMs, GenAI, Agentic
+              AI, ML systems, and the delightful moment every legacy workflow
+              realizes it is now a cautionary tale.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#stories">Start reading</a>
+              <a class="button button-secondary" href="#newsletter"
+                >Join the weekly damage report</a
+              >
+            </div>
+
+            <ul class="signal-list" aria-label="Editorial signals">
+              <li>Agent gossip</li>
+              <li>Model drama</li>
+              <li>MLOps therapy</li>
+              <li>Enterprise panic, translated</li>
+            </ul>
+          </div>
+
+          <aside class="hero-panel reveal reveal-delay">
+            <div class="panel-header">
+              <span>Live damage meter</span>
+              <strong id="damage-score">73%</strong>
+            </div>
+
+            <div class="meter" aria-hidden="true">
+              <span class="meter-bar"></span>
+            </div>
+
+            <div class="trend-console">
+              <p class="console-label">Current obsession</p>
+              <div class="topic-switcher" role="tablist" aria-label="Topic switcher">
+                <button class="topic-pill is-active" type="button" data-topic="agentic">
+                  Agentic AI
+                </button>
+                <button class="topic-pill" type="button" data-topic="llm">
+                  LLMs
+                </button>
+                <button class="topic-pill" type="button" data-topic="genai">
+                  GenAI
+                </button>
+              </div>
+
+              <article class="topic-card" id="topic-card">
+                <p class="topic-kicker" id="topic-kicker">Autonomous chaos</p>
+                <h2 id="topic-title">Agentic AI is your new coworker with root access.</h2>
+                <p id="topic-description">
+                  It plans, delegates, retries, and occasionally acts like it
+                  skimmed the compliance handbook upside down. Naturally,
+                  everyone wants ten of them.
+                </p>
+              </article>
+            </div>
+          </aside>
+        </section>
+
+        <section class="manifesto reveal">
+          <div class="manifesto-card">
+            <p class="section-tag">Why this exists</p>
+            <h2>Because AI coverage is either too breathless or too boring.</h2>
+            <p>
+              DamagedByAI explains what matters, what is hype, what is useful,
+              and what just got renamed three times so a board deck could call
+              it transformation.
+            </p>
+          </div>
+          <div class="manifesto-points">
+            <article>
+              <span>01</span>
+              <h3>Funny on purpose</h3>
+              <p>
+                Sarcasm stays in the copy so the technical concepts can stay
+                honest.
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Technical without cosplay</h3>
+              <p>
+                We cover models, infra, tooling, data, agents, and deployment
+                realities without pretending every reader wants a PhD detour.
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Built for recurring reads</h3>
+              <p>
+                Think newsletters, breakdowns, trend explainers, and opinionated
+                essays for the beautifully over-notified internet.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="coverage reveal" id="coverage">
+          <div class="section-heading">
+            <p class="section-tag">Coverage</p>
+            <h2>The AI beats worth being mildly alarmed about</h2>
+          </div>
+
+          <div class="coverage-grid">
+            <article class="coverage-card accent-lime">
+              <p class="card-label">LLMs</p>
+              <h3>Reasoning, retrieval, evals, and hallucinations with executive confidence.</h3>
+              <p>
+                The models are fluent. The roadmaps are not. We unpack both.
+              </p>
+            </article>
+            <article class="coverage-card accent-coral">
+              <p class="card-label">Agentic AI</p>
+              <h3>Workflows that promise autonomy and deliver tickets, tools, and trust issues.</h3>
+              <p>
+                Multi-step systems, orchestration, guardrails, and where they
+                snap.
+              </p>
+            </article>
+            <article class="coverage-card accent-sky">
+              <p class="card-label">GenAI</p>
+              <h3>Image, voice, code, and content pipelines for teams who just met prompt debt.</h3>
+              <p>
+                We follow the creative upside and the operational aftermath.
+              </p>
+            </article>
+            <article class="coverage-card accent-gold">
+              <p class="card-label">AI infrastructure</p>
+              <h3>GPU budgets, vector databases, MLOps, and the sacred art of pretending latency is fine.</h3>
+              <p>
+                Infra choices stop being abstract once the demo becomes a
+                product.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="stories reveal" id="stories">
+          <div class="section-heading">
+            <p class="section-tag">Featured stories</p>
+            <h2>Sharp takes for readers who enjoy both insight and side-eye</h2>
+          </div>
+
+          <div class="story-list">
+            <article class="story-card">
+              <div class="story-meta">
+                <span>Essay</span>
+                <span>6 min</span>
+              </div>
+              <h3>The Prompt Engineer Was Here for 11 Minutes and Already Has a Framework</h3>
+              <p>
+                A friendly look at emerging AI roles, invented titles, and the
+                labor market's ongoing improv routine.
+              </p>
+              <a href="#newsletter">Queue it for the newsletter</a>
+            </article>
+            <article class="story-card">
+              <div class="story-meta">
+                <span>Breakdown</span>
+                <span>8 min</span>
+              </div>
+              <h3>Agentic AI: Delegation for People Who Miss the Risk of Unsupervised Scripts</h3>
+              <p>
+                What agents actually do, where orchestration works, and why
+                observability suddenly looks less optional.
+              </p>
+              <a href="#newsletter">Read the damage report</a>
+            </article>
+            <article class="story-card">
+              <div class="story-meta">
+                <span>Newsletter</span>
+                <span>5 min</span>
+              </div>
+              <h3>Your Legacy Stack Just Heard "Copilot" and Started Sweating</h3>
+              <p>
+                A tour through enterprise AI adoption, re-platforming pressure,
+                and the quiet horror of surprise architecture diagrams.
+              </p>
+              <a href="#newsletter">Get future editions</a>
+            </article>
+          </div>
+        </section>
+
+        <section class="newsletter reveal" id="newsletter">
+          <div class="newsletter-copy">
+            <p class="section-tag">Newsletter</p>
+            <h2>One inbox-friendly briefing per week. Minimal fluff. Maximum amused concern.</h2>
+            <p>
+              Join for trend explainers, spicy summaries, and concise breakdowns
+              of what AI is changing in products, business, and the day-to-day
+              emotional life of software teams.
+            </p>
+          </div>
+
+          <form class="newsletter-form" id="newsletter-form">
+            <label for="email" class="sr-only">Email address</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="you@still-employed.com"
+              required
+            />
+            <button type="submit">Subscribe before the roadmap pivots again</button>
+            <p class="form-note" id="form-note" aria-live="polite">
+              No spam. Just elegantly packaged disruption.
+            </p>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>DamagedByAI</p>
+        <p>Funny, informed, and mildly suspicious of every shiny demo.</p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
